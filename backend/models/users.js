@@ -21,6 +21,7 @@ const userData = new Schema({
         type: Date,
         default: Date.now(),
     },
+    
 });
 
 const usermodelData = mongoose.model("users",userData);
